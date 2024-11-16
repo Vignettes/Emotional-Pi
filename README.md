@@ -52,6 +52,7 @@ This project implements real-time emotion detection using a Logitech C920 webcam
 
   ```bash
   sudo apt-get update && sudo apt-get upgrade -y
+  ```
 2. Install Dependencies
 a. Install V4L2 Utilities
 
