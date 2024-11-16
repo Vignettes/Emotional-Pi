@@ -3,7 +3,11 @@
 
 ## Overview
 
-This project implements real-time emotion detection using a Logitech C920 webcam and a Raspberry Pi 5. The system captures video input, detects faces, and analyzes facial expressions to determine emotions using machine learning models.
+This project implements real-time emotion detection using a Logitech C920 webcam and a Raspberry Pi 5. The system captures video input, detects faces, and analyzes facial expressions using machine learning models to determine emotions.
+
+
+https://github.com/user-attachments/assets/9d1c4534-8a2b-4da5-b6dd-d2d43072f05e
+
 
 ## Table of Contents
 
