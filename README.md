@@ -13,7 +13,6 @@ This project implements real-time emotion detection using a Logitech C920 webcam
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ---
 
