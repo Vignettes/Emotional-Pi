@@ -55,53 +55,61 @@ This project implements real-time emotion detection using a Logitech C920 webcam
   ```
 2. Install Dependencies
 a. Install V4L2 Utilities
-
+```
 bash
 Copy code
 sudo apt-get install v4l-utils
+```
 b. Verify Camera Detection
-
+```
 bash
 Copy code
 v4l2-ctl --list-devices
+```
 c. Install Python 3 and Pip
-
+```
 bash
 Copy code
 sudo apt-get install python3 python3-pip
+```
 d. Install OpenCV
-
-bash
+```bash
 Copy code
 sudo apt-get install python3-opencv
+```
 e. Install TensorFlow Lite Runtime
-
+```
 bash
 Copy code
 pip3 install tflite-runtime
+```
 f. Install the FER Library
-
+```
 bash
 Copy code
 pip3 install fer
+```
 3. Clone the Repository
-bash
+```bash
 Copy code
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+```
 Replace your-username and your-repo-name with your GitHub username and repository name.
 
 Usage
 
 1. Test the Webcam
-bash
+```bash
 Copy code
 python3 test_camera.py
+```
 This script captures an image from the webcam and saves it as test.jpg.
 2. Run Emotion Detection
-bash
+```bash
 Copy code
 python3 emotion_detection.py
+```
 The script will open a window displaying the webcam feed with detected emotions overlaid on the faces.
 Press q to exit the program.
 3. Script Explanation
@@ -118,20 +126,24 @@ Contributions are welcome! Please follow these steps:
 
 Fork the Repository: Click the "Fork" button at the top-right corner of the repo page.
 Clone Your Fork:
-bash
+```bash
 Copy code
 git clone https://github.com/your-username/your-repo-name.git
+```
 Create a Branch:
-bash
+```bash
 Copy code
 git checkout -b feature/your-feature-name
+```
 Make Changes: Implement your feature or fix.
 Commit Changes:
-bash
+```bash
 Copy code
 git commit -am 'Add your commit message here'
+```
 Push to Branch:
-bash
+```bash
 Copy code
 git push origin feature/your-feature-name
+```
 Create a Pull Request: Go to the original repo and click "New Pull Request".
